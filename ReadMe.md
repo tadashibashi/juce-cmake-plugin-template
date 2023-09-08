@@ -26,7 +26,7 @@ Configurable base template for a JUCE audio plugin using CMake
 │  ├─ PluginProcessor.cpp
 │  └─ PluginProcessor.h
 ├─ CMakeLists.txt          # Build configurations
-└─ ReadMe.txt              # This file
+└─ ReadMe.md               # This file
 ```
 
 ## How to Use
