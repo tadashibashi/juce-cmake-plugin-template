@@ -16,7 +16,7 @@ Configurable base template for a JUCE audio plugin using CMake
 
 ## Project Structure
 
-```text
+```
 /
 ├─ lib/                    # Submodule dependencies
 │  ├─ JUCE/                
@@ -33,5 +33,5 @@ Configurable base template for a JUCE audio plugin using CMake
 
 - CMakeLists.txt is where you can configure the project --
 project name, manufacturer, plugin type, compile defs etc.
-- Add all source files to `src/` and write each in the CMakeLists.txt 
-`target_sources` command.
+- When adding, removing, or renaming source files, please make sure to 
+update them in CMakeLists.txt `target_sources` command (file glob not used)
