@@ -19,14 +19,14 @@ Configurable base template for a JUCE audio plugin using CMake
 ```
 /
 ├─ lib/                    # Submodule dependencies
-│  ├─ JUCE/                
+│  └─ JUCE/
 ├─ src/                    # Plugin boilerplate code
 │  ├─ PluginEditor.cpp
 │  ├─ PluginEditor.h
 │  ├─ PluginProcessor.cpp
-│  ├─ PluginProcessor.h
+│  └─ PluginProcessor.h
 ├─ CMakeLists.txt          # Build configurations
-├─ ReadMe.txt              # This file
+└─ ReadMe.txt              # This file
 ```
 
 ## How to Use
